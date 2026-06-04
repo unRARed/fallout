@@ -6,7 +6,7 @@
       slides:
         dspc_animation_slide:
           action: play
-    - time: "+12"
+    - time: "+7"
       slides:
           show_final_scores:
               widgets:
@@ -179,4 +179,4 @@
         attract_slide3
     - time: "+5"
       lights:
-          caps: off   
+          caps: off

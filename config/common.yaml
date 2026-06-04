@@ -243,17 +243,21 @@ lights:
         number: playfield-2-5
         tags: inserts, stims
     sling_left_top:
+        type: grb
         number: playfield-2-6
-        tags: slings, top_slings
+        tags: slings, top_slings, left_sling
     sling_left_bottom:
+        type: grb
         number: playfield-2-7
-        tags: slings, top_slings
+        tags: slings, top_slings, left_sling
     sling_right_top:
+        type: grb
         number: playfield-2-8
-        tags: slings, top_slings
+        tags: slings, top_slings, right_sling
     sling_right_bottom:
+        type: grb
         number: playfield-2-9
-        tags: slings, top_slings
+        tags: slings, top_slings, right_sling
     power1:
         number: neuron-1-1
         tags: helmet
@@ -281,6 +285,7 @@ lights:
     power9:
         number: neuron-1-9
         tags: helmet
+
 
 light_player:
     mode_attract_started:

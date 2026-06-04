@@ -30,7 +30,7 @@ light_player:
         stims: off
         helmet: ffff00
         vault_boy: off
-        slings: off
+        slings: yellow
 
     rads_level1:
         rad1: red
@@ -568,7 +568,19 @@ shows:
           lights:
               vault_boy:
                   color: 00D5FF
-                  fade: 250ms      
+                  fade: 250ms
+    left_sling_flash:
+        - duration: +100ms
+          lights:
+              left_sling:
+                  color: FF5500
+                  fade: 100ms
+    right_sling_flash:
+        - duration: +100ms
+          lights:
+              right_sling:
+                  color: FF5500
+                  fade: 100ms
 
 
 show_player:
@@ -580,6 +592,13 @@ show_player:
         vault_boy_flash:
             action: play
             loops: 0
-
+    left_sling_hit:
+        left_sling_flash:
+            action: play
+            loops: 0
+    right_sling_hit:
+        right_sling_flash:
+            action: play
+            loops: 0
 
     #etc...
