@@ -3,10 +3,38 @@
 keyboard:
     s:
         switch: s_start
-    k:
+    z:
         switch: s_left_flipper
-    l:
+    "/":
         switch: s_right_flipper
+    1:
+        switch: s_trough1
+    2:
+        switch: s_trough2
+    3:
+        switch: s_trough3
+    l:
+        switch: s_shooter_lane
+        # switch: s_l_stand
+        # switch: s_r_outlane
+        # switch: s_left_outlane
+        # switch: s_left_inlane
+        # switch: s_right_inlane
+        # switch: s_left_sling
+        # switch: s_right_sling
+        # switch: s_right_ramp
+        # switch: s_left_ramp
+        # switch: s_center_ramp
+        # switch: s_stand_up1
+        # switch: s_stand_up2
+        # switch: s_stand_up3
+        # switch: s_scoop
+        # switch: s_lspinner
+        # switch: s_cspinner
+        # switch: s_rspinner
+        # switch: s_lock1
+        # switch: s_lock2
+        # switch: s_lock3
 
 kivy_config:
     kivy:
@@ -14,20 +42,12 @@ kivy_config:
         exit_on_escape: true
         pause_on_minimize: 0
     graphics:
-        borderless: true
         window_state: visible # visible, hidden, maximized, minimized
         fbo: software # hardware, software, force-hardware
-        fullscreen: true
-        left: 0
-        top: 0
-        width: 1366  # width of display1 + display2
-        height: 768  # common height (or the maximum of both)
         maxfps: 30
         multisamples: 2
-        position: custom # auto, custom
-        show_cursor: true
-        resizable: false
         rotation: 0
+
 displays:
     display1:
       width: 1920

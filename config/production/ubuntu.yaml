@@ -30,3 +30,15 @@ fast:
     port: /dev/ttyACM1
     baud: 921600
     debug: false
+
+kivy_config:
+    graphics:
+        fullscreen: true
+        resizable: false
+        borderless: 1
+        show_cursor: false
+        left: 0
+        top: 0
+        position: custom # auto, custom
+        width: 1366  # width of display1 + display2
+        height: 768  # common height (or the maximum of both)

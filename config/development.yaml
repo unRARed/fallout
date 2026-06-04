@@ -10,3 +10,13 @@ virtual_platform_start_active_switches:
 
 hardware:
     platform: smart_virtual
+
+kivy_config:
+    graphics:
+        fullscreen: false
+        resizable: true
+        borderless: 0
+        width: 800
+        height: 450
+        show_cursor: true
+        position: auto
