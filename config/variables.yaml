@@ -1,4 +1,0 @@
-#config_version=6
-
-spin_counter_count:
-    initial_value: 0

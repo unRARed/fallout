@@ -4,6 +4,10 @@
       slides: attract_slide1
     - time: "+5"
       slides:
+        dspc_animation_slide:
+          action: play
+    - time: "+12"
+      slides:
           show_final_scores:
               widgets:
               - type: Text
